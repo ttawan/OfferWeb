@@ -5,7 +5,7 @@ import CardItemDetail from 'components/CardItemDetail';
 
 class Home extends React.Component {
   componentDidMount() {
-    // Request all books
+    // Request all items
     const { fetchItems } = this.props;
     fetchItems();
   }
