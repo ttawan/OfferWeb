@@ -1,0 +1,17 @@
+.Header {
+  &__container {
+    @include sticky-position;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $primary;
+    color: $white;
+    top: 0;
+  }
+
+  &__title {
+    @include font-size;
+    font-family: $fontFamilyBase;
+  }
+}

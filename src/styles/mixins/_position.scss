@@ -1,0 +1,6 @@
+@mixin sticky-position {
+  position: fixed;
+  @supports (position: sticky) {
+    position: sticky;
+  }
+}

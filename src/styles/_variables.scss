@@ -1,0 +1,32 @@
+// Layout
+$paddingBase: 10;
+
+// Colors
+$red: #D51F2B;
+$white: #FFFFFF;
+$gray: #CCCCCC;
+$black: #000000;
+
+// Theming
+$primary: $red;
+$dark: $black;
+$white: $white;
+
+// Navigation
+$activeTintColor: $white;
+$inactiveTintColor: $gray;
+$tabBarBackgroundColor: $red;
+
+// Font size
+$fontSizeBase: 1;
+$fontSizeSmall: $fontSizeBase / 1.4;
+$fontSizeMedium: $fontSizeBase * 1.5;
+
+// Font family
+$fontFamilyBase: 'Roboto', sans-serif;
+$fontFamilyDisplay: 'Calistoga', cursive;
+
+// Font weight
+$fontWeightLight: '300';
+$fontWeightRegular: '400';
+$fontWeightBold: '500';

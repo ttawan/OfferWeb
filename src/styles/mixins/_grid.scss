@@ -1,0 +1,6 @@
+// media query mixin
+@mixin grid($size) {  
+  @media (min-width: map-get($breakpoints, $size)) {
+    @content;
+  }
+}

@@ -1,0 +1,23 @@
+.CardItem {
+  &__item {
+    
+  }
+}
+
+.CardItemDetail {
+  &__container {
+  
+
+  }
+
+  &__item {
+    
+  }
+
+  &__content {
+    color: $white;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+  }
+}
